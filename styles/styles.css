@@ -1,0 +1,140 @@
+.header-nav {
+    background-color: rgb(197, 124, 13);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    margin: top;
+    top: 0;
+}
+.nav-bar, ul {
+    margin-top: -59px;
+}
+li{
+    color: black;
+}
+.nav-bar {
+    margin-left: 55%;
+}
+html {
+    display: block;
+    background: url('parcel-delivery.jpg') no-repeat center fixed;     
+    background-size: cover;
+}
+.info {
+    margin-top: 75px;
+    margin-left: 70px;
+    max-width: 100%;
+    width: 100%;
+}
+.info, li {
+    display: inline-block;
+    padding: 10px;
+    align-items: center;
+}
+
+a, li {
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+}
+.logo {
+    height: 70px;
+    width: 300px;
+
+}
+
+.form-modal{
+    position:relative;
+    width:450px;
+    height: auto;
+    margin-top:10em;
+    left:50%;
+    transform:translateX(-50%);
+    background:rgb(39, 37, 37);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow:0 3px 20px 0px rgba(0, 0, 0, 0.1)
+}
+
+input {
+    display: block;
+    position: relative;
+    width:250px;
+    margin-top: 0;
+    margin-left: 3em;
+}
+label{
+    color: #fff;
+    margin-left: 3em;
+   
+}
+
+.sign {
+    margin-top: 5em;
+    margin-left: 5em;
+    color: #fff;
+}
+p{
+    margin-left: 2em;
+    color: #fff;
+    margin-bottom: 3em;
+}
+#login{
+    background-color: blueviolet;
+    border-radius: 10px;
+    font-size: small;
+}
+
+.form-modal button{
+    cursor: pointer;
+    position: relative;
+    text-transform: capitalize;
+    font-size:1em;
+    z-index: 2;
+    outline: none;
+    background:#fff;
+    transition:0.2s;
+}
+
+.form-modal .btn{
+    border-radius: 10px;
+    border:none;
+    font-weight: bold;
+    font-size:0.7em;
+    padding:0.8em 1em 0.8em 1em!important;
+    transition:0.5s;
+    border:1px solid #ebebeb;
+    margin-bottom:0.5em;
+    margin-top:1em;
+    margin-left: 5em;
+}
+
+.cont{
+    position:relative;
+    width:450px;
+    height: auto;
+    margin-top:10em;
+    left:50%;
+    transform:translateX(-50%);
+    background:rgb(39, 37, 37);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow:0 3px 20px 0px rgba(0, 0, 0, 0.1)
+}
+.submit{
+    margin-left: 3em;
+    margin-top: 1em;
+}
+.sign-in h2{
+    color: #fff;
+    margin-left: 5em;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="form-modal">
+        <div id="signup-form">
+            <h2 class="sign">Sign-Up Page</h2>
+            <form method="POST" autocomplete="off" id="signBtn">
+                <label>
+                    <span>Name</span>
+                    <input type="text" id="name" placeholder="Enter your Name" />
+                </label>
+                <label>
+                    <span>Email Address</span>
+                    <input type="email" id="email" placeholder="Enter your Email" />
+                </label>
+                <label>
+                    <span>Email Phone Address</span>
+                    <input type="number" id="phoneNumber" placeholder="Enter Phone Number" />
+                </label>
+                <label>
+                    <span>Address</span>
+                    <input type="text" id="address" placeholder="Enter Address" />
+                </label>
+                <label>
+                    <span>Password</span>
+                    <input type="password" id="password" autocomplete="off" placeholder="Create password" />
+                </label>
+                <label>
+                    <span>Confirm Password</span>
+                    <input type="password" id="confirm_password" autocomplete="off" class="field"  placeholder="Confirm password *" /><br>
+                </label>
+                <br>
+                
+                <button type="submit" class="signBtn">create account</button>
+
+                <p>Already have an account? <a href="./login.html" id="login">Login</a></p>
+
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <script src="./scripts/sign.js"></script>
+</body>
+
+</html>
